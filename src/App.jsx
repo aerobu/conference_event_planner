@@ -10,6 +10,7 @@ function App() {
         <div className="tabs">
           <button>USA</button>
           <button>India</button>
+          <button>England</button>
         </div>
       </div>
     </>
