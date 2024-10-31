@@ -2,8 +2,7 @@ import React from 'react';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 
 export const IndiaMap = () => {
-    const geoUrl = "https://raw.githubusercontent.com/markmarkoh/datamaps/master/src/js/maps/india.topo.json";
-
+    const geoUrl = "https://raw.githubusercontent.com/geohacker/india/master/state/india_telengana.geojson";
     return (
         <div className="map-container">
             <h1>India States Political Leaning Map</h1>
