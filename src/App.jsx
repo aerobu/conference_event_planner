@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { IndiaMap } from './components/maps';
+import { IndiaMap, USMap } from './components/maps';
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <button onClick={()=>setSelectedTab('India')}>India</button>
         </div>
       </div>
-      {selectedTab === 'USA'}
+      {selectedTab === 'USA' && <USMap />}
       {selectedTab === 'India' && <IndiaMap />}
     </>
   )
